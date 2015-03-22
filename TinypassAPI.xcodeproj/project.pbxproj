@@ -14,6 +14,13 @@
 		CF240CAD1ABF6BAE006175D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF240CAC1ABF6BAE006175D0 /* Images.xcassets */; };
 		CF240CB01ABF6BAE006175D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF240CAE1ABF6BAE006175D0 /* LaunchScreen.xib */; };
 		CF240CBC1ABF6BAE006175D0 /* TinypassAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF240CBB1ABF6BAE006175D0 /* TinypassAPITests.m */; };
+		CFFBBDCA1ABF6E4F00986D73 /* PublisherAppApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBBDBD1ABF6E4F00986D73 /* PublisherAppApi.m */; };
+		CFFBBDCB1ABF6E4F00986D73 /* TPDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBBDC01ABF6E4F00986D73 /* TPDate.m */; };
+		CFFBBDCC1ABF6E4F00986D73 /* TPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBBDC21ABF6E4F00986D73 /* TPFile.m */; };
+		CFFBBDCD1ABF6E4F00986D73 /* TPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBBDC41ABF6E4F00986D73 /* TPObject.m */; };
+		CFFBBDCE1ABF6E4F00986D73 /* TPApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBBDC71ABF6E4F00986D73 /* TPApp.m */; };
+		CFFBBDD81ABF7F7800986D73 /* TPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBBDD71ABF7F7800986D73 /* TPClient.m */; };
+		ECC81ECC6452C6D9E5D16C27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02453EA841E66E26B678405B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02453EA841E66E26B678405B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE2A6343BF9FE5C7DD98A98 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		97A070EED61E5FDAD803A5A0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CF240C9C1ABF6BAE006175D0 /* TinypassAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinypassAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF240CA01ABF6BAE006175D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF240CA11ABF6BAE006175D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,18 @@
 		CF240CB51ABF6BAE006175D0 /* TinypassAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinypassAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF240CBA1ABF6BAE006175D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF240CBB1ABF6BAE006175D0 /* TinypassAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinypassAPITests.m; sourceTree = "<group>"; };
+		CFFBBDBC1ABF6E4F00986D73 /* PublisherAppApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublisherAppApi.h; sourceTree = "<group>"; };
+		CFFBBDBD1ABF6E4F00986D73 /* PublisherAppApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublisherAppApi.m; sourceTree = "<group>"; };
+		CFFBBDBF1ABF6E4F00986D73 /* TPDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDate.h; sourceTree = "<group>"; };
+		CFFBBDC01ABF6E4F00986D73 /* TPDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDate.m; sourceTree = "<group>"; };
+		CFFBBDC11ABF6E4F00986D73 /* TPFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFile.h; sourceTree = "<group>"; };
+		CFFBBDC21ABF6E4F00986D73 /* TPFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFile.m; sourceTree = "<group>"; };
+		CFFBBDC31ABF6E4F00986D73 /* TPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPObject.h; sourceTree = "<group>"; };
+		CFFBBDC41ABF6E4F00986D73 /* TPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPObject.m; sourceTree = "<group>"; };
+		CFFBBDC61ABF6E4F00986D73 /* TPApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPApp.h; sourceTree = "<group>"; };
+		CFFBBDC71ABF6E4F00986D73 /* TPApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPApp.m; sourceTree = "<group>"; };
+		CFFBBDD61ABF7F7800986D73 /* TPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPClient.h; sourceTree = "<group>"; };
+		CFFBBDD71ABF7F7800986D73 /* TPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC81ECC6452C6D9E5D16C27 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1619C2964C45A739CA1B9DD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A070EED61E5FDAD803A5A0 /* Pods.debug.xcconfig */,
+				3FE2A6343BF9FE5C7DD98A98 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF240C931ABF6BAE006175D0 = {
 			isa = PBXGroup;
 			children = (
 				CF240C9E1ABF6BAE006175D0 /* TinypassAPI */,
 				CF240CB81ABF6BAE006175D0 /* TinypassAPITests */,
 				CF240C9D1ABF6BAE006175D0 /* Products */,
+				1619C2964C45A739CA1B9DD3 /* Pods */,
+				D94A3B7C38F1092A5F5C1CB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +115,9 @@
 		CF240C9E1ABF6BAE006175D0 /* TinypassAPI */ = {
 			isa = PBXGroup;
 			children = (
+				CFFBBDBB1ABF6E4F00986D73 /* Api */,
+				CFFBBDBE1ABF6E4F00986D73 /* Helper */,
+				CFFBBDC51ABF6E4F00986D73 /* Models */,
 				CF240CA31ABF6BAE006175D0 /* AppDelegate.h */,
 				CF240CA41ABF6BAE006175D0 /* AppDelegate.m */,
 				CF240CA61ABF6BAE006175D0 /* ViewController.h */,
@@ -119,6 +156,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CFFBBDBB1ABF6E4F00986D73 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBBDD61ABF7F7800986D73 /* TPClient.h */,
+				CFFBBDD71ABF7F7800986D73 /* TPClient.m */,
+				CFFBBDBC1ABF6E4F00986D73 /* PublisherAppApi.h */,
+				CFFBBDBD1ABF6E4F00986D73 /* PublisherAppApi.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		CFFBBDBE1ABF6E4F00986D73 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBBDBF1ABF6E4F00986D73 /* TPDate.h */,
+				CFFBBDC01ABF6E4F00986D73 /* TPDate.m */,
+				CFFBBDC11ABF6E4F00986D73 /* TPFile.h */,
+				CFFBBDC21ABF6E4F00986D73 /* TPFile.m */,
+				CFFBBDC31ABF6E4F00986D73 /* TPObject.h */,
+				CFFBBDC41ABF6E4F00986D73 /* TPObject.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CFFBBDC51ABF6E4F00986D73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBBDC61ABF6E4F00986D73 /* TPApp.h */,
+				CFFBBDC71ABF6E4F00986D73 /* TPApp.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D94A3B7C38F1092A5F5C1CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02453EA841E66E26B678405B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF240CBF1ABF6BAE006175D0 /* Build configuration list for PBXNativeTarget "TinypassAPI" */;
 			buildPhases = (
+				31665798BC22F167CB0EF216 /* Check Pods Manifest.lock */,
 				CF240C981ABF6BAE006175D0 /* Sources */,
 				CF240C991ABF6BAE006175D0 /* Frameworks */,
 				CF240C9A1ABF6BAE006175D0 /* Resources */,
+				1C671EA9FBEBD70CC50D5666 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +294,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C671EA9FBEBD70CC50D5666 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31665798BC22F167CB0EF216 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF240C981ABF6BAE006175D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFBBDCB1ABF6E4F00986D73 /* TPDate.m in Sources */,
 				CF240CA81ABF6BAE006175D0 /* ViewController.m in Sources */,
+				CFFBBDCA1ABF6E4F00986D73 /* PublisherAppApi.m in Sources */,
+				CFFBBDCC1ABF6E4F00986D73 /* TPFile.m in Sources */,
 				CF240CA51ABF6BAE006175D0 /* AppDelegate.m in Sources */,
+				CFFBBDCD1ABF6E4F00986D73 /* TPObject.m in Sources */,
 				CF240CA21ABF6BAE006175D0 /* main.m in Sources */,
+				CFFBBDD81ABF7F7800986D73 /* TPClient.m in Sources */,
+				CFFBBDCE1ABF6E4F00986D73 /* TPApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +462,7 @@
 		};
 		CF240CC01ABF6BAE006175D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A070EED61E5FDAD803A5A0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TinypassAPI/Info.plist;
@@ -353,6 +473,7 @@
 		};
 		CF240CC11ABF6BAE006175D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE2A6343BF9FE5C7DD98A98 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TinypassAPI/Info.plist;
@@ -414,6 +535,7 @@
 				CF240CC11ABF6BAE006175D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF240CC21ABF6BAE006175D0 /* Build configuration list for PBXNativeTarget "TinypassAPITests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +544,7 @@
 				CF240CC41ABF6BAE006175D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

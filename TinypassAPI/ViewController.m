@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "PublisherAppApi.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,17 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	[PublisherAppApi list:^(NSArray *apis, NSError *error) {
+		NSLog(@"%@", apis);
+	}];
 	
+	[PublisherAppApi get:@"MODETWOAPP" completionHandler:^(TPApp *app, NSError *error) {
+		NSLog(@"%@", app);
+	}];
+	
+	[PublisherAppApi currencies:^(NSArray *currencies, NSError *error) {
+		NSLog(@"%@", currencies);
+	}];
 }
 
 - (void)didReceiveMemoryWarning {
