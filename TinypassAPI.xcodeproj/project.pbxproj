@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF240CA21ABF6BAE006175D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF240CA11ABF6BAE006175D0 /* main.m */; };
+		CF240CA51ABF6BAE006175D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF240CA41ABF6BAE006175D0 /* AppDelegate.m */; };
+		CF240CA81ABF6BAE006175D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF240CA71ABF6BAE006175D0 /* ViewController.m */; };
+		CF240CAB1ABF6BAE006175D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF240CA91ABF6BAE006175D0 /* Main.storyboard */; };
+		CF240CAD1ABF6BAE006175D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF240CAC1ABF6BAE006175D0 /* Images.xcassets */; };
+		CF240CB01ABF6BAE006175D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF240CAE1ABF6BAE006175D0 /* LaunchScreen.xib */; };
+		CF240CBC1ABF6BAE006175D0 /* TinypassAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF240CBB1ABF6BAE006175D0 /* TinypassAPITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF240CB61ABF6BAE006175D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF240C941ABF6BAE006175D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF240C9B1ABF6BAE006175D0;
+			remoteInfo = TinypassAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF240C9C1ABF6BAE006175D0 /* TinypassAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinypassAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF240CA01ABF6BAE006175D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF240CA11ABF6BAE006175D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF240CA31ABF6BAE006175D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF240CA41ABF6BAE006175D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF240CA61ABF6BAE006175D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF240CA71ABF6BAE006175D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF240CAA1ABF6BAE006175D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF240CAC1ABF6BAE006175D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF240CAF1ABF6BAE006175D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF240CB51ABF6BAE006175D0 /* TinypassAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinypassAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF240CBA1ABF6BAE006175D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF240CBB1ABF6BAE006175D0 /* TinypassAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinypassAPITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF240C991ABF6BAE006175D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF240CB21ABF6BAE006175D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF240C931ABF6BAE006175D0 = {
+			isa = PBXGroup;
+			children = (
+				CF240C9E1ABF6BAE006175D0 /* TinypassAPI */,
+				CF240CB81ABF6BAE006175D0 /* TinypassAPITests */,
+				CF240C9D1ABF6BAE006175D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF240C9D1ABF6BAE006175D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF240C9C1ABF6BAE006175D0 /* TinypassAPI.app */,
+				CF240CB51ABF6BAE006175D0 /* TinypassAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF240C9E1ABF6BAE006175D0 /* TinypassAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CF240CA31ABF6BAE006175D0 /* AppDelegate.h */,
+				CF240CA41ABF6BAE006175D0 /* AppDelegate.m */,
+				CF240CA61ABF6BAE006175D0 /* ViewController.h */,
+				CF240CA71ABF6BAE006175D0 /* ViewController.m */,
+				CF240CA91ABF6BAE006175D0 /* Main.storyboard */,
+				CF240CAC1ABF6BAE006175D0 /* Images.xcassets */,
+				CF240CAE1ABF6BAE006175D0 /* LaunchScreen.xib */,
+				CF240C9F1ABF6BAE006175D0 /* Supporting Files */,
+			);
+			path = TinypassAPI;
+			sourceTree = "<group>";
+		};
+		CF240C9F1ABF6BAE006175D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF240CA01ABF6BAE006175D0 /* Info.plist */,
+				CF240CA11ABF6BAE006175D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF240CB81ABF6BAE006175D0 /* TinypassAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF240CBB1ABF6BAE006175D0 /* TinypassAPITests.m */,
+				CF240CB91ABF6BAE006175D0 /* Supporting Files */,
+			);
+			path = TinypassAPITests;
+			sourceTree = "<group>";
+		};
+		CF240CB91ABF6BAE006175D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF240CBA1ABF6BAE006175D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF240C9B1ABF6BAE006175D0 /* TinypassAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF240CBF1ABF6BAE006175D0 /* Build configuration list for PBXNativeTarget "TinypassAPI" */;
+			buildPhases = (
+				CF240C981ABF6BAE006175D0 /* Sources */,
+				CF240C991ABF6BAE006175D0 /* Frameworks */,
+				CF240C9A1ABF6BAE006175D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinypassAPI;
+			productName = TinypassAPI;
+			productReference = CF240C9C1ABF6BAE006175D0 /* TinypassAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF240CB41ABF6BAE006175D0 /* TinypassAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF240CC21ABF6BAE006175D0 /* Build configuration list for PBXNativeTarget "TinypassAPITests" */;
+			buildPhases = (
+				CF240CB11ABF6BAE006175D0 /* Sources */,
+				CF240CB21ABF6BAE006175D0 /* Frameworks */,
+				CF240CB31ABF6BAE006175D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF240CB71ABF6BAE006175D0 /* PBXTargetDependency */,
+			);
+			name = TinypassAPITests;
+			productName = TinypassAPITests;
+			productReference = CF240CB51ABF6BAE006175D0 /* TinypassAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF240C941ABF6BAE006175D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Tinypass;
+				TargetAttributes = {
+					CF240C9B1ABF6BAE006175D0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CF240CB41ABF6BAE006175D0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CF240C9B1ABF6BAE006175D0;
+					};
+				};
+			};
+			buildConfigurationList = CF240C971ABF6BAE006175D0 /* Build configuration list for PBXProject "TinypassAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF240C931ABF6BAE006175D0;
+			productRefGroup = CF240C9D1ABF6BAE006175D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF240C9B1ABF6BAE006175D0 /* TinypassAPI */,
+				CF240CB41ABF6BAE006175D0 /* TinypassAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF240C9A1ABF6BAE006175D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF240CAB1ABF6BAE006175D0 /* Main.storyboard in Resources */,
+				CF240CB01ABF6BAE006175D0 /* LaunchScreen.xib in Resources */,
+				CF240CAD1ABF6BAE006175D0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF240CB31ABF6BAE006175D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF240C981ABF6BAE006175D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF240CA81ABF6BAE006175D0 /* ViewController.m in Sources */,
+				CF240CA51ABF6BAE006175D0 /* AppDelegate.m in Sources */,
+				CF240CA21ABF6BAE006175D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF240CB11ABF6BAE006175D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF240CBC1ABF6BAE006175D0 /* TinypassAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF240CB71ABF6BAE006175D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF240C9B1ABF6BAE006175D0 /* TinypassAPI */;
+			targetProxy = CF240CB61ABF6BAE006175D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF240CA91ABF6BAE006175D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF240CAA1ABF6BAE006175D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF240CAE1ABF6BAE006175D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF240CAF1ABF6BAE006175D0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF240CBD1ABF6BAE006175D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF240CBE1ABF6BAE006175D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF240CC01ABF6BAE006175D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinypassAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF240CC11ABF6BAE006175D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinypassAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF240CC31ABF6BAE006175D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TinypassAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinypassAPI.app/TinypassAPI";
+			};
+			name = Debug;
+		};
+		CF240CC41ABF6BAE006175D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TinypassAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinypassAPI.app/TinypassAPI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF240C971ABF6BAE006175D0 /* Build configuration list for PBXProject "TinypassAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF240CBD1ABF6BAE006175D0 /* Debug */,
+				CF240CBE1ABF6BAE006175D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF240CBF1ABF6BAE006175D0 /* Build configuration list for PBXNativeTarget "TinypassAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF240CC01ABF6BAE006175D0 /* Debug */,
+				CF240CC11ABF6BAE006175D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF240CC21ABF6BAE006175D0 /* Build configuration list for PBXNativeTarget "TinypassAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF240CC31ABF6BAE006175D0 /* Debug */,
+				CF240CC41ABF6BAE006175D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF240C941ABF6BAE006175D0 /* Project object */;
+}
